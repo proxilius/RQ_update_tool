@@ -8,10 +8,12 @@ import csv
 data_of_table_1 = []
 with open("tabla_egy.csv", 'r') as file:  #open table 1
     data_of_table_1=file.readlines()
+    print("Reading table 1 successfully")
 
 data_of_table_2 = []
 with open("tabla_ketto.csv", 'r') as file:  #open table 2
     data_of_table_2=file.readlines()
+    print("Reading table 2 successfully")
 
 output_table_data = [] # this will be the data to write into a third table
 
